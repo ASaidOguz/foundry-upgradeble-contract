@@ -11,7 +11,7 @@ proxy  ------> BoxV2
 
 Using BoxV1 abi to communicate with proxy contract to activate the implementation logic 
 
-BoxV1(proxyAddress).upgradeTo(BoxV2) ---> This will change the implementation to BoxV2
+BoxV1(proxyAddress).upgradeTo(address(BoxV2)) ---> This will change the implementation to BoxV2
 
 
 
